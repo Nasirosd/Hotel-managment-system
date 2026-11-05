@@ -1,0 +1,90 @@
+6. Project Development Modules
+আমরা ৮টি ধাপে সম্পূর্ণ প্রজেক্ট তৈরি করব।
+1. Module 1: Frontend Design
+   - Home Page
+   - Navigation Bar
+   - Rooms & Suites
+   - Gallery
+   - Contact Page
+2. Module 2: User Authentication
+   - Customer Registration
+   - Customer Login
+   - Logout
+   - User Profile
+3. Module 3: Admin Panel
+   - Admin Login
+   - Dashboard
+   - Hotel Management
+   - Room Management
+4. Module 4: Room Management
+   - Add Room
+   - Edit Room
+   - Delete Room
+   - View Available Rooms
+5. Module 5: Booking Management
+   - Search Rooms
+   - Check-in Date
+   - Check-out Date
+   - Confirm Booking
+   - Cancel Booking
+6. Module 6: Payment Management
+   - Payment Information
+   - Payment Method
+   - Payment Status
+   - Transaction Records
+7. Module 7: Feedback Management
+   - Submit Feedback
+   - Rating System
+   - Admin Feedback View
+8. Module 8: Testing & Security
+   - Database Testing
+   - Form Validation
+   - Password Hashing
+   - CSRF Protection
+   - Session Security
+
+luxstay_hotel_management/
+│
+├── admin/
+│   ├── login.php
+│   ├── dashboard.php
+│   ├── hotels.php
+│   ├── rooms.php
+│   ├── bookings.php
+│   ├── payments.php
+│   └── feedback.php
+│
+├── user/
+│   ├── register.php
+│   ├── login.php
+│   ├── dashboard.php
+│   └── profile.php
+│
+├── booking/
+│   ├── rooms.php
+│   ├── create.php
+│   └── my_bookings.php
+│
+├── database/
+│   └── luxstay_hotel_db.sql
+│
+├── config/
+│   └── database.php
+│
+├── includes/
+│   ├── header.php
+│   ├── footer.php
+│   └── functions.php
+│
+├── feedback/
+│   └── create.php
+│
+├── payment/
+│   └── payment.php
+│
+├── assets/
+│   ├── css/
+│   ├── js/
+│   └── images/
+│
+└── index.php

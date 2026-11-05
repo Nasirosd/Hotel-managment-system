@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<title>Hotelo - Hotel Booking PHP Template</title>
+
+<!-- Styles -->
+<link href="css/collection.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet">
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900,500%7CRoboto:300,400,500,700,900" rel="stylesheet" type="text/css">
+
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" href="images/favicon.ico">
+</head>
+
+<body data-spy="scroll" data-target=".sidebar" data-offset="200">
+
+<!-- Sidebar -->
+<aside class="sidebar sidebar-boxed sidebar-dark"> <a class="sidebar-brand" href="index.php"><img src="images/logo.png" alt="logo"></a>
+  <ul class="nav sidenav dropable">
+    <li><a href="#item_intro">Intro</a></li>
+    <li><a href="#documenter_cover">Core Features</a></li>
+    <li><a href="#how_to_install">How to Install</a></li>
+    <li><a href="#getting_started" title="Getting Started">Getting Started</a></li>
+    <li><a href="#fonts_used" title="Fonts used">Fonts used</a></li>
+    <li><a href="#head_css_structure" title="HEAD CSS Structure">HEAD Structure</a></li>
+    <li><a href="#header_structure" title="Header Structure">Header Structure</a></li>
+    <li><a href="#top_nav_menu" title="Top Nav Menu">Top Nav Menu</a></li>
+    <li><a href="#default-layout" title="Layout Structure">Layout Structure</a>
+      <ul>
+        <li><a href="#default-layout" title="Default Layout">Default Layout</a></li>
+        <!-- <li><a href="#dark-layout" title="Dark Layout">Dark Layout</a></li>
+        <li><a href="#rtl-layout" title="RTL Layout">RTL Layout</a></li> -->
+      </ul>
+    </li>
+    <li><a href="#javascript_structure" title="Javascript Structure">Javascript Structure</a></li>
+    <li><a href="#preloader" title="Preloader">Preloader</a></li>
+    <li><a href="#contact_form" title="Contact Form">Contact Form</a></li>
+    <li><a href="#mailchimp_form" title="Mailchimp">Mailchimp</a></li>
+    <li><a href="#scripts" title="Javascript Links">Javascript Links</a></li>
+    <li><a href="#credits" title="Credits">Credits</a></li>
+    <li><a href="#supports" title="Support">Support</a></li>
+  </ul>
+</aside>
+<!-- END Sidebar -->
+
+<header class="site-header navbar-transparent">
+
+  <!-- Top navbar & branding -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+
+      <!-- Toggle buttons and brand -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar"> <span class="glyphicon glyphicon-option-vertical"></span> </button>
+        <button type="button" class="navbar-toggle for-sidebar" data-toggle="offcanvas"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      </div>
+      <!-- END Toggle buttons and brand -->
+
+      <!-- Top navbar -->
+      <div id="navbar" class="navbar-collapse collapse" aria-expanded="true" role="banner">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="index.php">Documentation</a></li>
+          <li class="hero"><a target="_blank" href="#">Purchase</a></li>
+        </ul>
+      </div>
+      <!-- END Top navbar -->
+
+    </div>
+  </nav>
+  <!-- END Top navbar & branding -->
+
+  <!-- Banner -->
+  <div class="banner auto-size" style="background-color: #222429">
+    <div class="container-fluid text-white">
+      <h1><strong>Hotelo PHP</strong> documentation</h1>
+    </div>
+  </div>
+  <!-- END Banner -->
+
+</header>
+<main class="container-fluid">
+
+  <!-- Main content -->
+  <article class="main-content" role="main">
+    <section id="item_intro">
+      <h4>Hotelo - Hotel Booking PHP Template</h4>
+      <hr>
+      <ul>
+        <li>Created: October 13, 2025</li>
+        <li>Last Update: October 13, 2025</li>
+        <li>Version 1.0</li>
+        <li>By: <a target="_blank" href="http://themeforest.net/user/ThemeMascot"> ThemeMascot </a> & <a target="_blank" href="http://themeforest.net/user/KodeSolution"> KodeSolution</a></li>
+        <li>Email: <a href="mailto:help.thememascot@gmail.com?subject=Hotelo HTML Theme Support">help.thememascot@gmail.com </a></li>
+      </ul>
+      <p></p>
+    </section>
+
+    <section id="documenter_cover">
+      <h4>Core Features</h4>
+      <hr>
+      <ul>
+        <li><i class="icon_document_alt"></i>Built with <b>PHP</b></li>
+        <li><i class="icon_document_alt"></i>Built with <b>Bootstrap 5.x</b></li>
+        <li><strong>30+</strong> PHP Files</li>
+        <li>5 Index Multi Pages Demo</li>
+        <li>Easy to customize</li>
+        <li>PHP, CSS3 & SCSS</li>
+        <li>Clean & Simple Design</li>
+        <li>Fully Responsive Layout</li>
+        <li>Crossbrowser Compatible with Edge, IE9+, Firefox, Safari, Opera, Chrome</li>
+        <li> <strong>Revolution Slider</strong> added. you save $14.00 </li>
+        <li> <strong>Menuzord - Responsive Megamenu</strong> added. you save $7.00 </li>
+        <li> Retina ready </li>
+        <li> Font Awesome <strong>400+ icons</strong></li>
+        <li> 7 Stroke <strong>200+ icons</strong></li>
+        <li> Elegant Icon Font <strong>360+ icons</strong></li>
+        <li> Smooth animation </li>
+        <li> Parallax sections </li>
+        <li> Working <strong>Ajax contact form</strong> with validation </li>
+        <li> Google Maps easy to setup via data attributes </li>
+        <li> <strong>Powerful shortcodes</strong></li>
+        <li> Responsive video</li>
+        <li> <strong>Well documented</strong></li>
+      </ul>
+    </section>
+
+    <section id="how_to_install">
+      <h4>How to Install</h4>
+      <hr>
+        <h6>1. Install PHP</h6>
+        <p>If you're using XAMPP, WAMP, or MAMP, PHP should already be included. Make sure your server environment (Apache, Nginx, etc.) is configured to work with PHP. If PHP is not installed, you can download it from the official <a target="_blank" href="https://www.php.net/downloads">PHP website.</a></p>
+        <br>
+
+        <h6>2. Download and Extract the Zip File:</h6>
+        <p>Download the zip file containing all files integrated with Hotelo. Extract the contents of the zip file to your desired location.</p>
+        <br>
+
+
+        <h6>3. Running the PHP Application</h6>
+        <p>Start your PHP server. If you're using XAMPP, WAMP, or MAMP, start Apache. Navigate to localhost in your web browser and specify the port number if necessary (e.g.,http://localhost:{{PORT}}).</p>
+        <br>
+        <h6>4. Editing Hotelo Template</h6>
+        <p>Before all that you have to edit your template and place your own contents by replacing old demo contents, in this case, you will need a code editor such as – <b>VScode, Sublime Text</b> etc.</p>
+        <br>
+        <h6>5. Package comes with documentation unzip the download package, you’ll find a folder with all template files, like above screenshot.</h6>
+        <img class="w-100 img-thumbnail" src="images/file-structure.jpg" alt="File structure">
+    </section>
+
+    <section id="getting_started">
+      <div class="page-header">
+        <h3>Getting Started</h3>
+      </div>
+      <p>Unzip the archive and find out the <strong>folder Hotelo-client-php</strong>. There are all the template files in this folder.</p>
+      <p>The <strong>file and folder structure</strong> is something like this:</p>
+      <ol>
+        <li> <strong>/css</strong> — folder with css files. </li>
+        <li> <strong>/fonts</strong> — folder with icon fonts. </li>
+        <li> <strong>/images</strong> — folder with image files. </li>
+        <li> <strong>/includes</strong> — folder with twitter, phpmailer and different appointment, contact form php handler. </li>
+        <li> <strong>/js</strong> — folder with Javascript files. </li>
+        <li> <strong>/parts</strong> — all kind of header, footer and different layout section part exist in this folder. </li>
+        <li> <strong>/Plugins</strong> — For Slider Revolution </li>
+        <li> <strong>/scss</strong> — folder containing scss files of the template. <br>
+        </li>
+        <li> <strong>index-*.php, ...</strong> — Index page demos. </li>
+        <li> <strong>page-*.php, ...</strong> — Different inner page demos. </li>
+      </ol>
+      <p>Upload the template files to server with the help of one of the FTP-clients like FileZilla</p>
+      <p>&nbsp; </p>
+    </section>
+
+    <section id="fonts_used">
+      <div class="page-header">
+        <h3>Fonts used</h3>
+      </div>
+      <p> By default, the template loads <strong>Jost ,</strong> <strong>Oswald</strong> font from Google Web Font Services, you can change the font with the one that suits you best.</p>
+      <p>You will find the font code in the &quot;<strong>style.css</strong>&quot; file in the "<strong>css</strong>" folder:</p>
+      <pre class="line-numbers">
+        <code class="language-css">
+        @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&#38;family=Oswald:wght@200..700&#38;family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&#38;display=swap");
+        </code>
+      </pre>
+    </section>
+
+
+    <section id="head_css_structure">
+      <div class="page-header">
+        <h3>HEAD Structure</h3>
+      </div>
+      <p> These is the default <strong>HEAD</strong> structure which can be found in <strong>parts/header-common.php</strong></p>
+      <pre class="line-numbers">
+        <code class="language-markup">
+          &#60;!DOCTYPE html&#62;
+          &#60;html 
+            &#60;?php if(isset($rtl_mode) &#38;&#38; !empty($rtl_mode)) { echo 'dir="rtl"'; } ?&#62;
+          &#62;
+          &#60;head&#62;
+            &#60;meta charset="utf-8" /&#62;
+            &#60;title&#62;&#60;?php echo $head_title; ?&#62;&#60;/title&#62;
+            &#60;!-- Stylesheets --&#62;
+            &#60;link href="css/bootstrap.min.css" rel="stylesheet"&#62;
+            &#60;?php if(isset($rtl_mode) &#38;&#38; !empty($rtl_mode)) { ?&#62;
+              &#60;link href="css/style-rtl.css" rel="stylesheet"&#62;
+            &#60;?php } else { ?&#62;
+              &#60;link href="css/style.css" rel="stylesheet"&#62;
+            &#60;?php } ?&#62;
+            &#60;?php if(isset($dark_mode) &#38;&#38; !empty($dark_mode)) { ?&#62;
+              &#60;link href="css/style-dark.css" rel="stylesheet"&#62;
+            &#60;?php } ?&#62;
+            &#60;!-- Stylesheets --&#62;
+            &#60;link href="css/flatpickr.min.css" rel="stylesheet"&#62;
+            &#60;link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon"&#62;
+            &#60;link rel="icon" href="images/favicon.svg" type="image/x-icon"&#62;
+            &#60;!-- Responsive --&#62;
+            &#60;meta http-equiv="X-UA-Compatible" content="IE=edge"&#62;
+            &#60;meta name="viewport" content="width=device-width, initial-scale=1.0"&#62;
+          &#60;/head&#62;
+          &#60;body&#62;
+        </code>
+      </pre>
+    </section>
+
+    <section id="header_structure">
+      <div class="page-header">
+        <h3>Header</h3>
+      </div>
+      <p>If you want to change the menu list item or any kind of text then you have to open files from <strong>parts/header/header.php</strong></p>
+      <pre class="line-numbers">
+        <code class="language-markup">
+          &#60;?php require_once('header-common.php'); ?&#62;
+          &#60;div class="page-wrapper"&#62;
+          &#60;!-- Preloader --&#62;
+          &#60;?php require_once('parts/preloader/preloader.php'); ?&#62; 
+
+          &#60;!-- Main Header--&#62;
+          &#60;header class="main-header header-style-one header-1"&#62;
+            &#60;!-- Header Lower --&#62;
+            &#60;div class="header-lower"&#62;
+              &#60;!-- Main box --&#62;
+              &#60;div class="main-box"&#62;
+                &#60;!--Nav Box--&#62;
+                &#60;div class="nav-outer"&#62;
+                  &#60;div class="logo-box2 d-xxl-none"&#62;
+                    &#60;div class="logo"&#62;
+                        &#60;?php
+                        $default_logo_url = "images/logo/white-logo.png";
+                        if(isset($dark_logo_url)&#38;&#38;!empty($dark_logo_url)) {
+                        $default_logo_url = $dark_logo_url;
+                        }
+                        ?&#62;
+                        &#60;a href="index.php" title=""&#62;&#60;img src="&#60;?php echo $default_logo_url;?&#62;" alt="" title="Hotelo"&#62;&#60;/a&#62;
+                    &#60;/div&#62;
+                  &#60;/div&#62;
+                  &#60;nav class="nav main-menu"&#62;
+                    &#60;?php
+                    $default_menu_file = "parts/header/menu.php";
+                    if(isset($single_menu_file)&#38;&#38;!empty($single_menu_file)) {
+                    $default_menu_file = $single_menu_file;
+                    }
+                    ?&#62;
+                    &#60;?php require_once($default_menu_file); ?&#62;
+                  &#60;/nav&#62;
+                  &#60;div class="logo-box d-none d-xxl-block"&#62;
+                    &#60;div class="logo"&#62;
+                      &#60;?php
+                      $default_logo_url = "images/logo/white-logo.png";
+                      if(isset($dark_logo_url)&#38;&#38;!empty($dark_logo_url)) {
+                      $default_logo_url = $dark_logo_url;
+                      }
+                      ?&#62;
+                      &#60;a href="index.php" title=""&#62;&#60;img src="&#60;?php echo $default_logo_url;?&#62;" alt="" title="royalrix"&#62;&#60;/a&#62;
+                    &#60;/div&#62;
+                  &#60;/div&#62;
+                  &#60;div class="outer-box"&#62;
+                    &#60;!-- Main Menu End--&#62;
+                    &#60;div class="ui-btn-outer"&#62;
+                      &#60;div class="header-contact"&#62;
+                        &#60;a href="tel:+1234567890000" class="info-btn"&#62;
+                          &#60;i class="icon fa fa-phone"&#62;&#60;/i&#62;
+                          +(123) 456 7890 000
+                        &#60;/a&#62;
+                      &#60;/div&#62;
+                      &#60;div class="ui-btn-search"&#62;
+                        &#60;button class="ui-btn ui-btn search-btn main-header__search search-toggler"&#62;
+                          &#60;img src="images/search.svg" alt="Search Icon"&#62;
+                        &#60;/button&#62;
+                        &#60;a href="shop-cart.php" class="shop-cart"&#62;
+                          &#60;img src="images/cart.svg" alt="img"&#62;
+                          &#60;span&#62;1&#60;/span&#62;
+                        &#60;/a&#62;
+                      &#60;/div&#62;
+                      &#60;a href="room-details.php" class="theme-btn"&#62;
+                        &#60;span&#62;book Now&#60;/span&#62;
+                      &#60;/a&#62;
+                      &#60;!-- Mobile Nav toggler --&#62;
+                    &#60;/div&#62;
+                    &#60;div class="mobile-nav-toggler"&#62;&#60;span class="icon lnr-icon-bars"&#62;&#60;/span&#62;&#60;/div&#62;
+                  &#60;/div&#62;
+                &#60;/div&#62;
+              &#60;/div&#62;
+            &#60;/div&#62;
+            &#60;!-- End Header Lower --&#62;
+            &#60;!-- Mobile Menu  --&#62;
+            &#60;div class="mobile-menu"&#62;
+              &#60;div class="menu-backdrop"&#62;&#60;/div&#62;
+              &#60;!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--&#62;
+              &#60;nav class="menu-box"&#62;
+                &#60;div class="upper-box"&#62;
+                  &#60;div class="nav-logo"&#62;
+                    &#60;a href="index.php"&#62;&#60;img src="images/logo/white-logo.png" alt=""&#62;&#60;/a&#62;
+                  &#60;/div&#62;
+                  &#60;div class="close-btn"&#62;&#60;i class="icon fa fa-times"&#62;&#60;/i&#62;&#60;/div&#62;
+                &#60;/div&#62;
+
+                &#60;ul class="navigation clearfix"&#62;
+                  &#60;!--Keep This Empty / Menu will come through Javascript--&#62;
+                &#60;/ul&#62;
+                &#60;ul class="contact-list-one"&#62;
+                  &#60;li&#62;
+                    &#60;!-- Contact Info Box --&#62;
+                    &#60;div class="contact-info-box"&#62;
+                      &#60;i class="icon lnr-icon-phone-handset"&#62;&#60;/i&#62;
+                      &#60;span class="title"&#62;Call Now&#60;/span&#62;
+                      &#60;a href="tel:+92880098670"&#62;+92 (8800) - 98670&#60;/a&#62;
+                    &#60;/div&#62;
+                  &#60;/li&#62;
+                  &#60;li&#62;
+                    &#60;!-- Contact Info Box --&#62;
+                    &#60;div class="contact-info-box"&#62;
+                      &#60;span class="icon lnr-icon-envelope1"&#62;&#60;/span&#62;
+                      &#60;span class="title"&#62;Send Email&#60;/span&#62;
+                      &#60;a href="mailto:help@company.com"&#62;help@company.com&#60;/a&#62;
+                    &#60;/div&#62;
+                  &#60;/li&#62;
+                  &#60;li&#62;
+                    &#60;!-- Contact Info Box --&#62;
+                    &#60;div class="contact-info-box"&#62;
+                      &#60;span class="icon lnr-icon-clock"&#62;&#60;/span&#62;
+                      &#60;span class="title"&#62;Send Email&#60;/span&#62;
+                      Mon - Sat 8:00 - 6:30, Sunday - CLOSED
+                    &#60;/div&#62;
+                  &#60;/li&#62;
+                &#60;/ul&#62;
+
+                &#60;ul class="social-links"&#62;
+                  &#60;li&#62;
+                    &#60;a href="#"&#62;&#60;i class="fab fa-twitter"&#62;&#60;/i&#62;&#60;/a&#62;
+                  &#60;/li&#62;
+                  &#60;li&#62;
+                    &#60;a href="#"&#62;&#60;i class="fab fa-facebook-f"&#62;&#60;/i&#62;&#60;/a&#62;
+                  &#60;/li&#62;
+                  &#60;li&#62;
+                    &#60;a href="#"&#62;&#60;i class="fab fa-pinterest"&#62;&#60;/i&#62;&#60;/a&#62;
+                  &#60;/li&#62;
+                  &#60;li&#62;
+                    &#60;a href="#"&#62;&#60;i class="fab fa-instagram"&#62;&#60;/i&#62;&#60;/a&#62;
+                  &#60;/li&#62;
+                &#60;/ul&#62;
+              &#60;/nav&#62;
+            &#60;/div&#62;
+            &#60;!-- End Mobile Menu --&#62;
+
+            &#60;!-- Sticky Header  --&#62;
+            &#60;div class="sticky-header"&#62;
+              &#60;div class="auto-container"&#62;
+                &#60;div class="inner-container"&#62;
+                  &#60;!--Logo--&#62;
+                  &#60;div class="logo"&#62;
+                      &#60;?php
+                      $default_logo_url = "images/logo/black-logo.png";
+                      if(isset($sticky_logo_url)&#38;&#38;!empty($sticky_logo_url)) {
+                      $default_logo_url = $sticky_logo_url;
+                      }
+                      ?&#62;
+                      &#60;a href="index.php" title=""&#62;&#60;img src="&#60;?php echo $default_logo_url;?&#62;" alt="" title=""&#62;&#60;/a&#62;
+                  &#60;/div&#62;
+
+                  &#60;!--Right Col--&#62;
+                  &#60;div class="nav-outer"&#62;
+                    &#60;!-- Main Menu --&#62;
+                    &#60;nav class="main-menu"&#62;
+                      &#60;div class="navbar-collapse show collapse clearfix"&#62;
+                        &#60;ul class="navigation clearfix"&#62;
+                          &#60;!--Keep This Empty / Menu will come through Javascript--&#62;
+                        &#60;/ul&#62;
+                      &#60;/div&#62;
+                    &#60;/nav&#62;
+                    &#60;!-- Main Menu End--&#62;
+
+                    &#60;!--Mobile Navigation Toggler--&#62;
+                    &#60;div class="mobile-nav-toggler"&#62;&#60;span class="icon lnr-icon-bars"&#62;&#60;/span&#62;&#60;/div&#62;
+                  &#60;/div&#62;
+                &#60;/div&#62;
+              &#60;/div&#62;
+            &#60;/div&#62;
+            &#60;!-- End Sticky Menu --&#62;
+          &#60;/header&#62;
+          &#60;!--End Main Header --&#62;
+
+          &#60;!-- Header Search --&#62;
+          &#60;div class="search-popup"&#62;
+            &#60;div class="search-popup__overlay search-toggler"&#62;&#60;/div&#62;
+            &#60;div class="search-popup__content"&#62;
+              &#60;form role="search" method="get" class="search-popup__form" action="#"&#62;
+                &#60;input type="text" id="search" name="search" placeholder="Search Here..."&#62;
+                &#60;button type="submit" aria-label="search submit" class="search-btn"&#62;
+                  &#60;span&#62;&#60;i class="fa-regular fa-magnifying-glass"&#62;&#60;/i&#62;&#60;/span&#62;
+                &#60;/button&#62;
+              &#60;/form&#62;
+            &#60;/div&#62;
+          &#60;/div&#62;
+        </code>
+      </pre>
+    </section>
+
+    <section id="top_nav_menu">
+      <div class="page-header">
+        <h3>Top Nav Menu</h3>
+      </div>
+      <p>If you want to change the menu list item or any kind of text then you have to open files from <strong>parts/header/menu.php</strong></p>
+      <pre class="line-numbers">
+        <code class="language-markup">
+          &#60;ul class="navigation"&#62;
+          &#60;li class="current dropdown"&#62;
+              &#60;a href="index.php"&#62;Home&#60;/a&#62;
+              &#60;ul&#62;
+              &#60;li&#62;&#60;a href="index.php"&#62;luxury Hotel&#60;/a&#62;&#60;/li&#62;
+              &#60;li&#62;&#60;a href="index-2.php"&#62;beach Resort&#60;/a&#62;&#60;/li&#62;
+              &#60;li&#62;&#60;a href="index-3.php"&#62;Mountain Hotel&#60;/a&#62;&#60;/li&#62;
+              &#60;li&#62;&#60;a href="index-4.php"&#62;Hotel Resort&#60;/a&#62;&#60;/li&#62;
+              &#60;li&#62;&#60;a href="index-5.php"&#62;Ski Resort&#60;/a&#62;&#60;/li&#62;
+              &#60;/ul&#62;
+          &#60;/li&#62;
+          &#60;li class="dropdown"&#62;
+              &#60;a href="#"&#62;Pages&#60;/a&#62;
+              &#60;ul&#62;
+              &#60;li&#62;&#60;a href="page-about.php"&#62;About&#60;/a&#62;&#60;/li&#62;
+              &#60;li&#62;&#60;a href="page-contact.php"&#62;Contact&#60;/a&#62;&#60;/li&#62;
+              &#60;li&#62;&#60;a href="page-pricing.php"&#62;Pricing&#60;/a&#62;&#60;/li&#62;
+              &#60;li class="dropdown"&#62;&#60;a href="#"&#62;Team&#60;/a&#62;
+                  &#60;ul&#62;
+                  &#60;li&#62;&#60;a href="page-team.php"&#62;Team List&#60;/a&#62;&#60;/li&#62;
+                  &#60;li&#62;&#60;a href="page-team-details.php"&#62;Team Details&#60;/a&#62;&#60;/li&#62;
+                  &#60;/ul&#62;
+              &#60;/li&#62;
+              &#60;li class="dropdown"&#62;&#60;a href="#"&#62;Shop&#60;/a&#62;
+                  &#60;ul&#62;
+                  &#60;li&#62;&#60;a href="shop-products.php"&#62;Products&#60;/a&#62;&#60;/li&#62;
+                  &#60;li&#62;&#60;a href="shop-products-sidebar.php"&#62;Products with Sidebar&#60;/a&#62;&#60;/li&#62;
+                  &#60;li&#62;&#60;a href="shop-product-details.php"&#62;Product Details&#60;/a&#62;&#60;/li&#62;
+                  &#60;li&#62;&#60;a href="shop-cart.php"&#62;Cart&#60;/a&#62;&#60;/li&#62;
+                  &#60;li&#62;&#60;a href="shop-checkout.php"&#62;Checkout&#60;/a&#62;&#60;/li&#62;
+                  &#60;/ul&#62;
+              &#60;/li&#62;
+              &#60;li&#62;&#60;a href="page-testimonial.php"&#62;Testimonials&#60;/a&#62;&#60;/li&#62;
+              &#60;li&#62;&#60;a href="page-faq.php"&#62;Faq&#60;/a&#62;&#60;/li&#62;
+              &#60;li&#62;&#60;a href="page-404.php"&#62;404&#60;/a&#62;&#60;/li&#62;
+              &#60;/ul&#62;
+          &#60;/li&#62;
+          &#60;li class="dropdown"&#62;&#60;a href="#"&#62;Rooms &#38; Suites&#60;/a&#62;
+              &#60;ul&#62;
+              &#60;li&#62;&#60;a href="page-rooms.php"&#62;Rooms&#60;/a&#62;&#60;/li&#62;
+              &#60;li&#62;&#60;a href="page-rooms-suite.php"&#62;Rooms and Suits&#60;/a&#62;&#60;/li&#62;
+              &#60;li&#62;&#60;a href="room-details.php"&#62;Room Details&#60;/a&#62;&#60;/li&#62;
+              &#60;/ul&#62;
+          &#60;/li&#62;
+          &#60;li class="dropdown"&#62;&#60;a href="#"&#62;Services&#60;/a&#62;
+              &#60;ul&#62;
+              &#60;li&#62;&#60;a href="page-services.php"&#62;Services List&#60;/a&#62;&#60;/li&#62;
+              &#60;li&#62;&#60;a href="page-service-details.php"&#62;Services Details&#60;/a&#62;&#60;/li&#62;
+              &#60;/ul&#62;
+          &#60;/li&#62;
+          &#60;li class="dropdown"&#62;
+              &#60;a href="#"&#62;News&#60;/a&#62;
+              &#60;ul&#62;
+              &#60;li&#62;&#60;a href="news-grid.php"&#62;News Grid&#60;/a&#62;&#60;/li&#62;
+              &#60;li&#62;&#60;a href="news-details.php"&#62;News Details&#60;/a&#62;&#60;/li&#62;
+              &#60;/ul&#62;
+          &#60;/li&#62;
+          &#60;/ul&#62;
+        </code>
+      </pre>
+    </section>
+
+    <section id="default-layout">
+      <div class="page-header">
+        <h3>Default Layout Structure</h3>
+      </div>
+      <p>The general template structure is the same throughout the template. Here is the general structure.</p>
+      <pre class="line-numbers">
+        <code class="language-markup">
+          &#60;?php $head_title="Hotelo - Hotel Booking PHP Template | Home Page 01"?&#62;
+
+          &#60;?php require_once('parts/header/header.php'); ?&#62;  
+
+          &#60;?php
+          require_once('parts/home1/banner.php');
+          require_once('parts/home1/luxury.php');
+          require_once('parts/home1/about.php');
+          require_once('parts/home1/counter.php');
+          require_once('parts/home1/services.php');
+          require_once('parts/home1/royalrix.php');
+          require_once('parts/home1/choose.php');
+          require_once('parts/home1/project.php');
+          require_once('parts/home1/video.php');
+          require_once('parts/home1/marquee.php');
+          require_once('parts/home1/team.php');
+          require_once('parts/home1/testimonial.php');
+          require_once('parts/home1/pricing.php');
+          require_once('parts/home1/contact.php');
+          require_once('parts/home1/news.php');
+          require_once('parts/home1/instagram.php');
+          require_once('parts/home1/cta.php');
+          ?&#62;
+          &#60;?php
+          $new_footer_logo_url = "images/logo/white-logo.png";
+          ?&#62;
+          &#60;?php require_once('parts/footer/footer.php'); ?&#62;  
+        </code>
+      </pre>
+    </section>
+
+    <section id="javascript_structure">
+      <div class="page-header">
+        <h3>Javascript Structure</h3>
+      </div>
+      <p> These are the <strong>JS</strong> files which are loaded into the <strong>template</strong> before the end of the <strong>BODY end tag</strong>.</p>
+      <pre class="line-numbers">
+        <code class="language-markup">
+          &#60;/div&#62;
+              &#60;!-- End Page Wrapper --&#62;
+              &#60;script src="js/jquery.js"&#62;&#60;/script&#62;
+              &#60;script src="js/popper.min.js"&#62;&#60;/script&#62;
+              &#60;script src="js/bootstrap.min.js"&#62;&#60;/script&#62;
+              &#60;script src="js/jquery.fancybox.js"&#62;&#60;/script&#62;
+              &#60;script src="js/jquery-ui.js"&#62;&#60;/script&#62;
+              &#60;script src="js/gsap.js"&#62;&#60;/script&#62;
+              &#60;script src="js/gsap-scroll-to-plugin.js"&#62;&#60;/script&#62;
+              &#60;script src="js/gsap-scroll-smoother.js"&#62;&#60;/script&#62;
+              &#60;script src="js/gsap-scroll-trigger.js"&#62;&#60;/script&#62;
+              &#60;script src="js/gsap-split-text.js"&#62;&#60;/script&#62;
+              &#60;script src="js/split-type.min.js"&#62;&#60;/script&#62;
+              &#60;script src="js/parallaxie.js"&#62;&#60;/script&#62;
+              &#60;script src="js/flatpickr.js"&#62;&#60;/script&#62;
+              &#60;script src="js/wow.js"&#62;&#60;/script&#62;
+              &#60;script src="js/bxslider.js"&#62;&#60;/script&#62;
+              &#60;script src="js/nice-select.min.js"&#62;&#60;/script&#62;
+              &#60;script src="js/knob.js"&#62;&#60;/script&#62;
+              &#60;script src="js/appear.js"&#62;&#60;/script&#62;
+              &#60;script src="js/swiper.min.js"&#62;&#60;/script&#62;
+              &#60;script src="js/mixitup.js"&#62;&#60;/script&#62;
+              &#60;script src="js/script.js"&#62;&#60;/script&#62;
+            &#60;/body&#62;
+          &#60;/html&#62;
+        </code>
+      </pre>
+    </section>
+
+    <section id="html_structure">
+      <div class="page-header">
+        <h3>HTML Structure</h3>
+      </div>
+      This template has a responsive layout and is based on the <strong>Bootstrap V5 Framework</strong>. For more information about this visit <a target="_blank" href="http://getbootstrap.com/css/"><strong>Bootstrap CSS</strong></a>.
+      <p>The general template structure is the same throughout the template. Here is the <strong>general structure:</strong></p>
+      <pre class="line-numbers">
+        <code class="language-markup">
+        &lt;section id=&quot;sectionID_if_Needed&quot;&gt;
+            &lt;div class=&quot;container&quot;&gt;
+                &lt;div class=&quot;row&quot;&gt;
+                    &lt;!-- Section Title --&gt;
+                    &lt;div class=&quot;section-title&quot;&gt;
+                        &lt;div class=&quot;col-md-12&quot;&gt;
+                            ...          ...          ...
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;!-- Section Content --&gt;
+                    &lt;div class=&quot;section-content&quot;&gt;
+                        &lt;div class=&quot;col-md-12&quot;&gt;
+                            ...          ...          ...
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/section&gt;
+        </code>
+      </pre>
+      <p>&nbsp; </p>
+    </section>
+
+    <section id="preloader">
+      <div class="page-header">
+        <h3>Preloader</h3>
+      </div>
+      <p><strong>CSS animated</strong> preloader example:</p>
+      <pre class="line-numbers">
+        <code class="language-markup">
+          &#60;div class="page-wrapper"&#62;
+
+          &#60;!-- Preloader --&#62;
+          &#60;div class="preloader"&#62;&#60;/div&#62;
+
+          &#60;!-- Back-to-top start --&#62;
+          &#60;div class="back-to-top-wrapper"&#62;
+          &#60;button id="back_to_top" type="button" class="back-to-top-btn"&#62;
+              &#60;svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg"&#62;
+              &#60;path d="M11 6L6 1L1 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /&#62;
+              &#60;/svg&#62;
+          &#60;/button&#62;
+          &#60;/div&#62;
+        </code>
+      </pre>
+      <p>For changing <strong>CSS</strong> preloader you have to just copy those html code and replace your existing preloader in index files.</a></p>
+    </section>
+    <section id="contact_form">
+      <div class="page-header">
+        <h3>Contact Form</h3>
+      </div>
+      <p>The Contact form <strong>html</strong> code example is as follows :</p>
+      <pre class="line-numbers">
+        <code class="language-markup">
+        &lt;!-- Contact Form --&gt;
+        &lt;form id=&quot;contact_form&quot; name=&quot;contact_form&quot; class=&quot;&quot; action=&quot;includes/sendmail.php&quot; method=&quot;post&quot;&gt;
+
+            &lt;div class=&quot;row&quot;&gt;
+                &lt;div class=&quot;col-sm-6&quot;&gt;
+                    &lt;div class=&quot;form-group&quot;&gt;
+                        &lt;label for=&quot;form_name&quot;&gt;Name &lt;small&gt;*&lt;/small&gt;&lt;/label&gt;
+                        &lt;input id=&quot;form_name&quot; name=&quot;form_name&quot; class=&quot;form-control&quot; type=&quot;text&quot; placeholder=&quot;Enter Name&quot; required=&quot;&quot;&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;col-sm-6&quot;&gt;
+                    &lt;div class=&quot;form-group&quot;&gt;
+                        &lt;label for=&quot;form_email&quot;&gt;Email &lt;small&gt;*&lt;/small&gt;&lt;/label&gt;
+                        &lt;input id=&quot;form_email&quot; name=&quot;form_email&quot; class=&quot;form-control required email&quot; type=&quot;email&quot; placeholder=&quot;Enter Email&quot;&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&quot;row&quot;&gt;
+                &lt;div class=&quot;col-sm-6&quot;&gt;
+                    &lt;div class=&quot;form-group&quot;&gt;
+                        &lt;label for=&quot;form_name&quot;&gt;Subject &lt;small&gt;*&lt;/small&gt;&lt;/label&gt;
+                        &lt;input id=&quot;form_subject&quot; name=&quot;form_subject&quot; class=&quot;form-control required&quot; type=&quot;text&quot; placeholder=&quot;Enter Subject&quot;&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;col-sm-6&quot;&gt;
+                    &lt;div class=&quot;form-group&quot;&gt;
+                        &lt;label for=&quot;form_phone&quot;&gt;Phone&lt;/label&gt;
+                        &lt;input id=&quot;form_phone&quot; name=&quot;form_phone&quot; class=&quot;form-control&quot; type=&quot;text&quot; placeholder=&quot;Enter Phone&quot;&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&quot;form-group&quot;&gt;
+                &lt;label for=&quot;form_name&quot;&gt;Message&lt;/label&gt;
+                &lt;textarea id=&quot;form_message&quot; name=&quot;form_message&quot; class=&quot;form-control required&quot; rows=&quot;5&quot; placeholder=&quot;Enter Message&quot;&gt;&lt;/textarea&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+                &lt;input id=&quot;form_botcheck&quot; name=&quot;form_botcheck&quot; class=&quot;form-control&quot; type=&quot;hidden&quot; value=&quot;&quot; /&gt;
+                &lt;button type=&quot;submit&quot; class=&quot;btn btn-dark btn-theme-colored btn-flat mr-5&quot; data-loading-text=&quot;Please wait...&quot;&gt;Send your message&lt;/button&gt;
+                &lt;button type=&quot;reset&quot; class=&quot;btn btn-default btn-flat btn-theme-colored&quot;&gt;Reset&lt;/button&gt;
+            &lt;/div&gt;
+        &lt;/form&gt;
+
+        &lt;!-- Contact Form Validation--&gt;
+        &lt;script type=&quot;text/javascript&quot;&gt;
+            $(&quot;#contact_form&quot;).validate({
+                submitHandler: function(form) {
+                    var form_btn = $(form).find('button[type=&quot;submit&quot;]');
+                    var form_result_div = '#form-result';
+                    $(form_result_div).remove();
+                    form_btn.before('&lt;div id=&quot;form-result&quot; class=&quot;alert alert-success&quot; role=&quot;alert&quot; style=&quot;display: none;&quot;&gt;&lt;/div&gt;');
+                    var form_btn_old_msg = form_btn.php();
+                    form_btn.php(form_btn.prop('disabled', true).data(&quot;loading-text&quot;));
+                    $(form).ajaxSubmit({
+                        dataType:  'json',
+                        success: function(data) {
+                            if( data.status == 'true' ) {
+                                $(form).find('.form-control').val('');
+                            }
+                            form_btn.prop('disabled', false).php(form_btn_old_msg);
+                            $(form_result_div).php(data.message).fadeIn('slow');
+                            setTimeout(function(){ $(form_result_div).fadeOut('slow') }, 6000);
+                        }
+                    });
+                }
+            });
+        &lt;/script&gt;
+
+
+        </code>
+      </pre>
+      <p>For placing your email address, just go to form action location <strong>action="includes/sendmail.php"</strong> and open the <strong> sendmail.php</strong> file in <strong>includes</strong> folder. In that php file at <strong>line 32</strong>, you will see <strong>$toemail = 'spam.thememascot@gmail.com'; </strong> Now just replace that email address by your own email address. Now your contact form is ready!</p>
+    </section>
+
+    <section id="mailchimp_form">
+      <div class="page-header">
+        <h3>Mailchimp Subscribe Form</h3>
+      </div>
+      <p>The Mailchimp subscribe form <strong>html</strong> code example is as follows :</p>
+      <pre class="line-numbers">
+        <code class="language-markup">
+        &lt;!-- Mailchimp Subscription Form--&gt;
+        &lt;form id=&quot;mailchimp-subscription-form1&quot; class=&quot;newsletter-form mt-40&quot;&gt;
+            &lt;label for=&quot;mce-EMAIL&quot;&gt;&lt;/label&gt;
+            &lt;div class=&quot;input-group&quot;&gt;
+                &lt;input type=&quot;email&quot; id=&quot;mce-EMAIL&quot; data-height=&quot;45px&quot; class=&quot;form-control input-lg&quot; placeholder=&quot;Your Email&quot; name=&quot;EMAIL&quot; value=&quot;&quot;&gt;
+                &lt;span class=&quot;input-group-btn&quot;&gt;
+                    &lt;button type=&quot;submit&quot; class=&quot;btn btn-colored btn-dark btn-lg m-0&quot; data-height=&quot;45px&quot;&gt;Subscribe&lt;/button&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/form&gt;
+
+        &lt;!-- Mailchimp Subscription Form Validation--&gt;
+        &lt;script type=&quot;text/javascript&quot;&gt;
+            $('#mailchimp-subscription-form1').ajaxChimp({
+                    callback: mailChimpCallBack,
+                    url: '//thememascot.us9.list-manage.com/subscribe/post?u=a01f440178e35febc8cf4e51f&amp;amp;id=49d6d30e1e'
+            });
+
+            function mailChimpCallBack(resp) {
+                    // Hide any previous response text
+                    var $mailchimpform = $('#mailchimp-subscription-form1'),
+                            $response = '';
+                    $mailchimpform.children(&quot;.alert&quot;).remove();
+                    console.log(resp);
+                    if (resp.result === 'success') {
+                            $response = '&lt;div class=&quot;alert alert-success&quot;&gt;&lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot; aria-label=&quot;Close&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;&lt;/button&gt;' + resp.msg + '&lt;/div&gt;';
+                    } else if (resp.result === 'error') {
+                            $response = '&lt;div class=&quot;alert alert-danger&quot;&gt;&lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot; aria-label=&quot;Close&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;&lt;/button&gt;' + resp.msg + '&lt;/div&gt;';
+                    }
+                    $mailchimpform.prepend($response);
+            }
+        &lt;/script&gt;
+        </code>
+      </pre>
+      <p>Now you just have to replace the existing Mailchimp List URL by your own <strong>Mailchimp List URL</strong> which is shown in <strong>line 16</strong> . Now your mailchimp subscribe form is ready!</p>
+    </section>
+
+    <section id="scripts">
+      <div class="page-header">
+        <h3>Javascript Links</h3>
+      </div>
+      <p> These are the <strong>scripts</strong> used in the template with their <strong>related links</strong> for documentation.</p>
+      <ul>
+        <li><a target="_blank" href="http://jquery.com/">jQuery</a></li>
+        <li><a target="_blank" href="http://getbootstrap.com/">Bootstrap Framework</a></li>
+        <li><a target="_blank" href="https://github.com/galambalazs/smoothscroll">Smoothscroll</a></li>
+        <li><a target="_blank" href="https://github.com/paulirish/infinite-scroll">Infinite Scroll</a></li>
+        <li><a target="_blank" href="https://github.com/flesler/jquery.scrollTo">scrollTo</a></li>
+        <li><a target="_blank" href="http://gsgd.co.uk/sandbox/jquery/easing/">jQuery Easing</a></li>
+        <li><a target="_blank" href="https://github.com/galambalazs/smoothscroll-for-websites">SmoothScroll</a></li>
+        <li><a target="_blank" href="https://github.com/morr/jquery.appear/">jQuery appear plugin</a></li>
+        <li><a target="_blank" href="https://github.com/carhartl/jquery-cookie">jQuery Cookie Plugin</a></li>
+        <li><a target="_blank" href="https://github.com/metafizzy/isotope">Isotope</a></li>
+        <li><a target="_blank" href="https://github.com/markdalgleish/stellar.js/">jquery Stellar parallax</a></li>
+        <li><a target="_blank" href="http://codecanyon.net/item/menuzord-responsive-megamenu/8536398">Menuzord Mega Menu</a></li>
+        <li><a target="_blank" href="http://jquery.malsup.com/cycle/">jQuery Cycle Plugin</a></li>
+        <li><a target="_blank" href="http://blog.aaronvanderzwan.com/2012/07/maximage-2-0/">Maximage Slider</a></li>
+        <li><a target="_blank" href="http://ianlunn.co.uk/plugins/jquery-parallax/">Jquery Parallax</a></li>
+        <li><a target="_blank" href="http://www.owlgraphic.com/owlcarousel/">Owl Carousel</a></li>
+        <li><a target="_blank" href="https://github.com/woothemes/FlexSlider">FlexSlider</a></li>
+        <li><a target="_blank" href="http://dimsemenov.com/plugins/magnific-popup/">Magnific Popup</a></li>
+        <li><a target="_blank" href="https://github.com/gilbitron/Nivo-Lightbox">Nivo Lightbox</a></li>
+        <li><a target="_blank" href="https://github.com/scaron/prettyphoto">PrettyPhoto Lightbox</a></li>
+        <li><a target="_blank" href="https://github.com/fullcalendar/fullcalendar">FullCalendar</a></li>
+        <li><a target="_blank" href="https://github.com/matthieua/WOW">WOW</a></li>
+        <li><a target="_blank" href="https://github.com/pupunzi/jquery.mb.YTPlayer">YTPlayer</a></li>
+        <li><a target="_blank" href="https://github.com/davatron5000/FitVids.js">FitVids</a></li>
+        <li><a target="_blank" href="https://github.com/VodkaBears/Vide">Vide</a></li>
+        <li><a target="_blank" href="http://www.newmediacampaigns.com/blog/a-jquery-flickr-feed-plugin">Jflickrfeed</a></li>
+        <li><a target="_blank" href="https://github.com/aterrien/jQuery-Knob">JQuery Knob</a></li>
+        <li>Typed Animation</li>
+        <li><a target="_blank" href="https://github.com/JeanMarcGoepfert/pretty-maps">Pretty Maps</a></li>
+        <li><a target="_blank" href="http://imulus.github.io/retinajs/">Retinajs</a></li>
+        <li><a target="_blank" href="https://github.com/scdoshi/jquery-ajaxchimp">Ajaxchimp</a></li>
+        <li><a target="_blank" href="http://esimakin.github.io/twbs-pagination/">Pagination</a></li>
+        <li><a target="_blank" href="https://github.com/sonnyt/Tweetie">Tweetie Twitter Feed</a></li>
+        <li><a target="_blank" href="https://github.com/stevenschobert/instafeed.js/">Instafeed</a></li>
+        <li>animateNumbers</li>
+        <li>CountDown</li>
+      </ul>
+    </section>
+    <section id="credits">
+      <div class="page-header">
+        <h3>Credits</h3>
+      </div>
+      <p><strong>Note:</strong> All <strong>images</strong> are used for <strong>preview</strong> purpose only and <strong>not included</strong> in the <strong>final purchase</strong> files. </p>
+      <p> <strong>Images from:</strong><br />
+        <a target="_blank" href="https://www.freepik.com/">https://www.freepik.com/</a><br />
+        <a target="_blank" href="https://www.flickr.com/">https://www.flickr.com/</a><br />
+        <a target="_blank" href="http://pixabay.com/">http://pixabay.com/</a><br />
+        <a target="_blank" href="http://www.pixeden.com/free-graphics">http://www.pixeden.com/free-graphics</a><br />
+        <a target="_blank" href="http://dribbble.com/">http://dribbble.com/</a><br />
+        <a target="_blank" href="https://wallpaperscraft.com/">https://wallpaperscraft.com/</a><br />
+        <a target="_blank" href="http://behance.net/">http://behance.net/</a><br />
+        <a target="_blank" href="http://pinterest.com/">http://pinterest.com/</a><br />
+      </p>
+      <p> <strong>Video from:</strong><br/>
+        <a target="_blank" href="http://youtube.com/">http://youtube.com/</a><br/>
+        <a target="_blank" href="https://vimeo.com/">https://vimeo.com/</a></p>
+      <p> <strong>Icon Fonts:</strong><br>
+        <a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">Font Awesome Icon Font</a><br>
+        <a href="http://themes-pixeden.com/font-demos/7-stroke/" target="_blank">Pe-icon-7-stroke</a><br>
+        <a href="https://www.elegantthemes.com/blog/resources/elegant-icon-font/" target="_blank">Elegant Icon Font</a> </p>
+    </section>
+    <section id="supports">
+      <div class="page-header">
+        <h3>Support</h3>
+      </div>
+      <p><strong>Again, thank you for purchasing this Template!</strong></p>
+      <p> If you have any questions, please use our profile contact form on Envato ( <a target="_blank" href="http://themeforest.net/user/ThemeMascot">http://themeforest.net/user/ThemeMascot</a> ) or at ( <a target="_blank" href="http://themeforest.net/user/KodeSolution">http://themeforest.net/user/KodeSolution</a> ) <br>
+        We aim to answer all questions within <strong>24 hours</strong> . In some cases the waiting time can be extended to <strong>48 hours.</strong></p>
+      <p>Email: <a href="mailto:help.thememascot@gmail.com?subject=LegalFirm HTML Theme Support">help.thememascot@gmail.com</a></p>
+    </section>
+  </article>
+  <!-- END Main content -->
+</main>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container-fluid"> <a id="scroll-up" href="#"><i class="fa fa-angle-up"></i></a>
+    <div class="row">
+      <div class="col-md-6 col-sm-6">
+        <p>Copyright &copy; 2025. All right reserved</p>
+      </div>
+      <div class="col-md-6 col-sm-6">
+        <ul class="footer-menu">
+          <li><a href="#">Changelog</a></li>
+          <li><a href="mailto:help.thememascot@gmail.com?subject=LegalFirm HTML Theme Support">Contact us</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- END Footer -->
+
+<!-- Scripts -->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/other.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>

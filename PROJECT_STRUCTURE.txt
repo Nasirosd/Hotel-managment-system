@@ -1,0 +1,20 @@
+luxstay_hotel_management/
+├── admin/index.php
+├── auth/
+│   ├── login.php
+│   ├── register.php
+│   └── logout.php
+├── booking/
+│   ├── rooms.php
+│   ├── create.php
+│   └── my_bookings.php
+├── config/database.php
+├── database/luxstay_hotel_db.sql
+├── feedback/create.php
+├── includes/
+│   ├── header.php
+│   └── footer.php
+├── public/assets/css/style.css
+├── public/assets/js/
+├── index.php
+└── README.md
